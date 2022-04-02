@@ -44,6 +44,7 @@ function App() {
           <div className='container-md px-sm-5 py-3 border-start border-end'>
             <Routes>
               <Route exact path='/' element={<Inicio/>} />
+
               <Route exact path='/escuela/galeria' element={<Galeria/>} />
               <Route exact path='/escuela/modelo' element={<Modelo/>} />
               <Route exact path='/escuela/ubicacion' element={<Ubicacion/>} />
