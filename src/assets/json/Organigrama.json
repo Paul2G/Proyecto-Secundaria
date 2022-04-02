@@ -1,0 +1,76 @@
+[
+    {
+        "name": "Personal directivo",
+        "subareas": [
+            {
+                "name": "Directora",
+                "members": [
+                    { "name": "Profra. Diana Fabiola Vázquez Balcázar" }
+                ]
+            },
+            {
+                "name": "Subdirectora Turno Matutino",
+                "members": [
+                    { "name": "Mtra. Gretchen Paola Rodríguez Orozco" }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Personal de asistencia educativa",
+        "subareas": [
+            {
+                "name": "Prefectura Turno Matutino",
+                "members": [
+                    { "name": "Profr. Rafael Reyes Gómez"},
+                    { "name": "C. Jesús Alejandro Linares Zagasta" }
+                ]
+            },
+            {
+                "name": "Prefectura Turno Vespertino",
+                "members": [
+                    { "name": "C. Xochitl Adriana Quintero Toledo" }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Personal de apoyo administrativo y de servicios",
+        "subareas": [
+            {
+                "name": "Contraloría",
+                "members": [
+                    { "name": "Profra. Alencka Barrios Arreola "}
+                ]
+            },
+            {
+                "name": "Control Escolar Turno Matutino",
+                "members": [
+                    { "name": "Profra. Gabriela Guadalupe Flores Valdez " },
+                    { "name": "C. Irma Alicia Anguiano Ibarra" }
+                ]
+            },
+            {
+                "name": "Control Escolar Turno Vespertino",
+                "members": [
+                    { "name": "C. Gabriela Gastelum Perea" },
+                    { "name": "C. Anabel Gallardo Andrade"}
+                ]
+            },
+            {
+                "name": "Intendencia Turno Matutino",
+                "members": [
+                    { "name": "Profr. Fernando Alcaráz Alarcón" },
+                    { "name": "C. Nicolás Reyes Gómez"}
+                ]
+            },
+            {
+                "name": "Intendencia Turno Vespertino",
+                "members": [
+                    { "name": "C. Héctor Abraham Durán Pérez" },
+                    { "name": ""}
+                ]
+            }
+        ]
+    }
+]
