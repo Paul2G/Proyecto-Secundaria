@@ -7,16 +7,16 @@ export class Modelo extends Component {
         <h2 className='text-start'>Modelo estratégico</h2>
         
         <div className='row text-start px-3'>
-          <div className="card col-md m-1">
+          <div className="col-md m-1">
             <div className="card-body">
               <h5 className="card-title">Misión</h5>
-              <p className="card-text">
-                Somos una institución comprometida con la labor educativa, interesada en lograr que nuestras y nuestros estudiantes egresen con el perfil del nivel de secundaria; consolidada como centro educativo con una infraestructura capaz de atender las necesidades educativas de sus alumnas y sus alumnos, con principios humanistas, brindando educación de calidad proyectándonos de forma competitiva hacia la comunidad en general, estando a la vanguardia en el uso de las nuevas tecnologías.
-              </p>
+                <p className="card-text">
+                  Somos una institución comprometida con la labor educativa, interesada en lograr que nuestras y nuestros estudiantes egresen con el perfil del nivel de secundaria; consolidada como centro educativo con una infraestructura capaz de atender las necesidades educativas de sus alumnas y sus alumnos, con principios humanistas, brindando educación de calidad proyectándonos de forma competitiva hacia la comunidad en general, estando a la vanguardia en el uso de las nuevas tecnologías.
+                </p>
             </div>
           </div>
 
-          <div className="card col-md m-1">
+          <div className="col-md m-1">
             <div className="card-body">
               <h5 className="card-title">Visión</h5>
               <p className="card-text">

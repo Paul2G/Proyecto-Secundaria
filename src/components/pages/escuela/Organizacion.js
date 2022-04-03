@@ -8,7 +8,7 @@ export class organizacion extends Component {
     return (
       <div>
         <h2 className="text-start">Organizacion</h2>
-          <div className='card '>
+          <div className=''>
             <div className=' card-body row'>
 
               <div className='col mx-3 text-start'> 

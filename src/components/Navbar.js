@@ -19,7 +19,7 @@ class Navbar extends React.Component {
 					<div className="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul className="navbar-nav me-auto mb-2 mb-lg-0">
 							<li className="nav-item">
-								<Link className="nav-link active" exact strict to="/" replace>Avisos</Link>
+								<Link className="nav-link active" exact strict to="/" replace>Inicio</Link>
 							</li>
 		
 							<li className="nav-item dropdown">
@@ -42,10 +42,10 @@ class Navbar extends React.Component {
 								<ul className="dropdown-menu" aria-labelledby="navbarDropdown">
 									<li><Link className="dropdown-item" to="/alumnos/reglamento">Reglamento escolar</Link></li>
 									<li><Link className="dropdown-item disabled" to="/">Trabajos de la cuarentena</Link></li>
-									<li><Link className="dropdown-item" to="/">Recursos didacticos</Link></li>
-									<li><Link className="dropdown-item" to="/">Correo institucional</Link></li>
+									<li><Link className="dropdown-item" to="/alumnos/recursos">Recursos didacticos</Link></li>
+									<li><Link className="dropdown-item" to="/alumnos/correo">Correo institucional</Link></li>
 									<li><Link className="dropdown-item disabled" to="/">Television educativa</Link></li>
-									<li><Link className="dropdown-item" to="/">Correo de los profesores</Link></li>
+									<li><Link className="dropdown-item disabled" to="/alumnos/correos_profesores">Correo de los profesores</Link></li>
 									<li><Link className="dropdown-item disabled" to="/">Aulas de classroom</Link></li>
 									<li><Link className="dropdown-item disabled" to="/">Asesores de grupos</Link></li>
 								</ul>
@@ -69,9 +69,9 @@ class Navbar extends React.Component {
 								</Link>
 								<ul className="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li><Link className="dropdown-item disabled" to="/">Avisos</Link></li>
-								<li><Link className="dropdown-item" to="/">Calificaciones</Link></li>
-								<li><Link className="dropdown-item" to="/">Requisitos de inscripcion</Link></li>
-								<li><Link className="dropdown-item" to="/">Uniforme escolar</Link></li>
+								<li><Link className="dropdown-item" to="/padres/calificaciones">Calificaciones</Link></li>
+								<li><Link className="dropdown-item" to="/padres/requisitos">Requisitos de inscripcion</Link></li>
+								<li><Link className="dropdown-item" to="/padres/uniforme">Uniforme escolar</Link></li>
 								</ul>
 							</li>
 						</ul>
@@ -84,30 +84,33 @@ class Navbar extends React.Component {
 							<div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 								<div className="modal-dialog modal-dialog-centered">
 									<div className="modal-content">
-										<div className="modal-header">
-											<h5 className="modal-title" id="exampleModalLabel">Inicio de sesión</h5>
-											<button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-										</div>
-
-										<div className="modal-body">
-											<div class="mb-3 row">
-												<label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
-												<div class="col-sm-10">
-													<input type="text" readonly class="form-control" id="inputEmail" />
-												</div>
-											</div>
-											<div class="mb-3 row">
-												<label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-												<div class="col-sm-10">
-													<input type="password" class="form-control" id="inputPassword" />
-												</div>
-											</div>
-										</div>
 										
-										<div class="modal-footer">
-											<button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-											<button type="button" className="btn btn-dark">Iniciar sesión</button>
-										</div>
+										<form class="needs-validation text-start">
+											<div className="modal-header">
+												<h5 className="modal-title" id="exampleModalLabel">Inicio de sesión para admin</h5>
+												<button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+											</div>
+
+											<div className="modal-body">
+												<div class="col-md-12">
+													<label for="validationCustomEmail" class="form-label">Correo electronico</label>
+													<input type="email" class="form-control" id="validationCustomEmail"/>
+												</div>
+
+												<div class="col-md-12">
+													<label for="validationCustom01" class="form-label">Contraseña</label>
+													<input type="password" class="form-control" id="validationCustom01" required/>
+												</div>
+												<div data-bs-dismiss="modal">
+													<Link to="/signin">¿No tienes cuenta? Registrate</Link>
+												</div>
+											</div>
+											
+											<div class="modal-footer">
+												<button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+												<button type="submit" className="btn btn-dark">Iniciar sesión</button>
+											</div>
+										</form>
 									</div>
 								</div>
 							</div>

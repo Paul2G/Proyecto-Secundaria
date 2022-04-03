@@ -36,9 +36,11 @@ import Requisitos from './components/pages/padres/Requisitos';
 import Calificaciones from './components/pages/padres/Calificaciones';
 import AvisosPad from './components/pages/padres/AvisosPad';
 
+import Signin from './components/pages/Signin';
+
 function App() {
   return (
-    <div className="App">
+    <div className="App min-vh-100">
         <BrowserRouter>
           <Navbar/>
           <div className='container-md px-sm-5 py-3 border-start border-end'>
@@ -52,6 +54,15 @@ function App() {
               <Route exact path='/escuela/directorio' element={<Directorio/>} />
 
               <Route exact path='/alumnos/reglamento' element={<Reglamento/>} />
+              <Route exact path='/alumnos/recursos' element={<Recursos/>} />
+              <Route exact path='/alumnos/correo' element={<CorreoIns/>} />
+              <Route exact path='/alumnos/correos_profesores' element={<CorreoProf/>} />
+
+              <Route exact path='/padres/calificaciones' element={<Calificaciones/>} />
+              <Route exact path='/padres/requisitos' element={<Requisitos/>} />
+              <Route exact path='/padres/uniforme' element={<Uniforme/>} />
+
+              <Route exact path='/signin' element={<Signin/>} />
             </Routes>
           </div>
           <Footer/>
