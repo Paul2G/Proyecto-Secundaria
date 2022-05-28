@@ -4,8 +4,10 @@ export class Calificaciones extends Component {
   render() {
     return (
       <div  className='text-start'>
-        <h3>Consulta califiaciones</h3>
-
+        <div>
+          <h3>Consulta califiaciones</h3>
+        </div>
+        
         <p className='mb-0'>Página para consultar califiaciones:</p>
         <a class="btn btn-secondary" href="https://rel.educacionbc.edu.mx/consultacalif/" role="button">
             Consulta calificaciones

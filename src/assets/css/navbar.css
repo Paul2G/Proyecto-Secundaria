@@ -1,0 +1,103 @@
+.bg-primary {
+    background-color:var(--primary) !important;
+}
+
+ul.navbar-nav.btn-group .btn-primary {
+    color: white;
+    padding-inline: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: var(--primary);
+    border: 0;
+    border-radius: 0;
+}
+
+@media (max-width: 992px){
+    ul.navbar-nav.btn-group .btn-primary {
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+    } 
+}
+
+ul.navbar-nav.btn-group .btn-primary:hover {
+    color: white;
+    background-color: var(--primary-light);
+    box-shadow: none;
+}
+
+ul.navbar-nav.btn-group .btn-primary:focus {
+    background-color: none;
+    box-shadow: none;
+}
+
+ul.navbar-nav.btn-group .dropdown-item {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+ul.navbar-nav.btn-group .dropdown-item:focus, .dropdown-item:active {
+    background-color: var(--secondary);
+    color: white;
+}
+
+ul.navbar-nav.btn-group .dropdown-menu {
+    border-radius: 0;
+    border: 1px solid var(--primary);
+    border-top: 0;
+    margin: 0;
+}
+
+nav.navbar .navbar-toggler{
+    background-color: white;
+    border: 2px solid var(--primary-strong);
+}
+
+nav.navbar .navbar-toggler:hover {
+    background-color: whitesmoke;
+}
+
+nav.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.xd-brand:hover {
+    background-color: var(--primary-light);
+}
+
+.xd-brand-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.xd-user {
+    padding: 1rem;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.xd-user.admin p{
+    font-style: italic;
+}
+
+.xd-user i{
+    font-size: larger;
+}
+
+.xd-user:hover.guest i::before {
+    content: "\F4DF";
+}
+
+.xd-user:hover.admin i::before {
+    content: "\F4D5";
+}
+
+.xd-user:hover {
+    text-shadow: 1px 1px 5px #ffffff60;
+}
+
+@media (max-width: 380px){
+    .xd-brand-name {
+        display: none;
+    }
+}

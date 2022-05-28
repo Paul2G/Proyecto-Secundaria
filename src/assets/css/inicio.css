@@ -1,0 +1,33 @@
+.xd-newpost-button {
+    background-color: transparent;
+    border: 0px;
+    color: #A0A0A0;
+}
+
+.xd-newpost-button:hover {
+    color: black;
+}
+
+.xd-newpost-button::before {
+    font-size: 1.5rem;
+}
+
+.xd-newpost-button:not(.collapsed)::before {
+    content: "\f37c";
+    color: black;
+}
+
+.xd-edit-button {
+    background: none;
+    box-shadow: none;
+    border: none;
+    color: #A0A0A0;
+}
+
+.xd-edit-button:hover {
+    color: black;
+}
+
+.xd-edit-button::before {
+    font-size: larger;
+}

@@ -4,7 +4,10 @@ export class CorreoIns extends Component {
   render() {
     return (
       <div className='text-start'>
-        <h3>Correo institucional</h3>
+        <div>
+          <h3>Correo institucional</h3>
+        </div>
+
         <p>
           Apreciable alumno (a): Conocer tu correo institucional del estado de Baja California y tu contraseña es muy importante, esta herramienta permitirá crear un enlace entre tu y tu escuela, es muy útil para obtener datos personales relacionados con la administración de tu educación secundaria y en estos momentos de contingencia ante la pandemia de COVID-19 servirá como herramienta de enlace entre tus maestros y tu.
         </p>

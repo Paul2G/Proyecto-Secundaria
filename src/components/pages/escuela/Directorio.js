@@ -3,10 +3,12 @@ import React, { Component } from 'react'
 export class Directorio extends Component {
   render() {
     return (
-      <div>
-        <h2 className='text-start'>Directorio</h2>
-        
-        <div className='row text-start px-3'>
+      <div className='text-start'>
+        <div>
+          <h3>Directorio</h3>
+        </div>
+
+        <div className='row px-3'>
           <div className="card col-sm m-1">
             <div className="card-body">
               <h5 className="card-title">Contacto</h5>

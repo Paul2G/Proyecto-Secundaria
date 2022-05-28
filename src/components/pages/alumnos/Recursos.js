@@ -7,8 +7,10 @@ import libros from '../../../assets/json/LibrosPiratas.json'
 export class Recursos extends Component {
   render() {
     return (
-      <div>
-        <h3 className='text-start'>Recursos didácticos online</h3>
+      <div className='text-start'>
+        <div>
+          <h3>Recursos didácticos online</h3>
+        </div>
 
         <div className='row'>
             <div className='col-sm px-5 py-1'>
@@ -31,13 +33,13 @@ export class Recursos extends Component {
             <h4 className='text-start'>Libros didacticos</h4>
 
             <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <div class="accordion-item rounded-0">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                     Primer grado
                   </button>
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
                     {makeaUrlList(dBooks[0])}
                   </div>
@@ -55,7 +57,7 @@ export class Recursos extends Component {
                   </div>
                 </div>
               </div>
-              <div class="accordion-item p-0">
+              <div class="accordion-item rounded-0 p-0">
                 <h2 class="accordion-header" id="headingThree">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     Tercer grado
@@ -73,14 +75,14 @@ export class Recursos extends Component {
 
           <div className='col-sm my-2'>
             <h4 className='text-start'>Clases por internet</h4>
-            <div className='border rounded-3'>
+            <div className='border'>
               {makeaUrlList(clases)}
             </div>
           </div>
 
           <div className='col-xl text-start my-2'>
             <h4>Literatura universal</h4>
-            <div className='border rounded-3'>
+            <div className='border'>
               {makeaUrlList(libros)}
             </div>
           </div>

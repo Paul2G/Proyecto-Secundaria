@@ -4,7 +4,10 @@ export class Requisitos extends Component {
   render() {
     return (
       <div className='text-start'>
-        <h3>Requisitos de inscripción</h3>
+        <div>
+          <h3>Requisitos de inscripción</h3>
+        </div>
+
         <div className='row'>
           <div className='col-md m-1'>
             <div className="card-body">
@@ -52,7 +55,6 @@ export class Requisitos extends Component {
               </div>
           </div>
         </div>
-
         <p className='fst-italic fw-bold'>Original y copia de todos los documentos</p>
       </div>
     )

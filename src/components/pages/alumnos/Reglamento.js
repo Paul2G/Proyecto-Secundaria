@@ -4,8 +4,10 @@ export class Reglamento extends Component {
   render() {
     return (
       <div className='text-start'>
-        <h2>Reglamento</h2>
-          
+        <div>
+          <h2>Reglamento</h2>
+        </div>
+
         <div className='card-body'>
           <h3>Reglamento interior del centro escolar en materia educativa y de seguridad escolar ciclo escolar 2019-2020</h3>
           <p>

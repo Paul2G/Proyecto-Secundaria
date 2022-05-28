@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class Signin extends Component {
   render() {
     return (
-      <div className='container-sm text-start'>
+      <div className='container-xl p-0 text-start'>
         <h3>Registrate</h3>
         <form class="row g-3 needs-validation">
           <div className='col-md-6'>

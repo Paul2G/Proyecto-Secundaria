@@ -1,0 +1,140 @@
+:root {
+  --primary-strong: #6d3508;
+  --primary: #9e4d0b;
+  --primary-light: #a86026;
+
+  --secondary-strong: #636806;
+  --secondary: #8e9508;
+  --secondary-light: #aab30b;
+
+  --terciary-strong: #d4b712;
+  --terciary: #f8d716;
+  --terciary-light: #ffe761;
+}
+
+a {
+  color: var(--secondary);
+}
+
+a:hover { 
+  color: var(--secondary-strong);
+}
+
+.bg-light {
+  background-color: whitesmoke !important;
+}
+
+/* Boton cafe */
+.btn-primary {
+  background-color: var(--primary);
+  border: none;
+  border-radius: 0;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-light);
+}
+
+.btn-primary:focus {
+  background-color: var(--primary);
+  box-shadow: none;
+}
+
+/* Boton amarillito */
+.btn-secondary {
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 0;
+}
+
+.btn-secondary:hover {
+  background-color: var(--secondary-light);
+}
+
+.btn-secondary:focus {
+  background-color: var(--secondary);
+  box-shadow: none;
+}
+
+/* Tarjetas */
+.xd-card {
+  border-radius: 0;
+  background-color: #ffffffD0;
+  border: 1px solid #00000030;
+  padding: 1rem 1.5rem;
+  text-align: justify;
+}
+
+/* Acordeones */
+.accordion-button {
+  color: black;
+  border: 0px;
+  border-radius: 0;
+}
+
+.accordion-button:hover {
+  background-color: whitesmoke;
+  border: 0px;
+}
+
+.accordion-button:focus {
+  box-shadow: none
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button::after {
+
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-item .accordion-body {
+  padding: 0.5rem 0
+}
+
+/* Links en listas */
+.list-group a:active {
+  background-color: var(--secondary);
+  color: white;
+}
+
+/* Cuadros de texto */
+.form-control {
+  border-radius: 0px;
+}
+
+.form-control:focus{
+  box-shadow: none;
+  border: 1px solid var(--primary-light);
+}
+
+main > div > div:first-child{
+  border-bottom: 2px solid #00000030;
+  margin-bottom: 0.5rem;
+}
+
+/*Select*/
+.form-select {
+  border-radius: 0;
+}
+
+.form-select:checked {
+  border-radius: 0px solid;
+  box-shadow: none;
+}
+
+.form-select:focus {
+  box-shadow: none;
+  border: 1px solid var(--primary);
+}
+
+.form-select option:hover {
+  background-color: var(--secondary);
+}

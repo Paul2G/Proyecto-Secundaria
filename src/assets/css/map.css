@@ -1,0 +1,11 @@
+.xd-map h5 {
+    padding-left: 1.5rem;
+}
+
+.xd-map h5 > i {
+    font-size: smaller;
+}
+
+.xd-map h6 {
+    padding-left: 3rem;
+}

@@ -1,0 +1,50 @@
+.xd-sidebar {
+    text-align: start;
+    padding: 0rem;
+}
+
+.xd-sidebar h5 {
+    margin: 0px;
+    padding: 0.25rem;
+}
+
+.xd-sidebar h5:hover {
+    background-color: #00000020;
+}
+
+.xd-sidebar h5 > i{
+    padding: 0 0.25rem;
+}
+
+.xd-sidebar h5:not(.collapsed) > i::before{
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+
+.xd-sidebar h5.collapsed > i::before{
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+.xd-sidebar ul {
+    padding: 0;
+}
+
+.xd-sidebar li {
+    list-style: none;
+    padding: 0.25rem 1.5rem;
+}
+
+.xd-sidebar a {
+    padding: 0.25rem 0.5rem;
+}
+
+.xd-sidebar a:hover{
+    background-color: #00000020;
+}
+
+.xd-sidebar a {
+    text-decoration: none;
+    color: black;
+}
+
