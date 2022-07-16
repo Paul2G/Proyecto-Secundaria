@@ -188,7 +188,7 @@ export class organizacion extends Component {
               <div className="modal-content rounded-0">
                 <form className="needs-validation text-start" id='editformu' onSubmit={this.handleOnEdit}>
                   <div className="modal-header">
-                    <h5 className="modal-title" id="staticBackdropEditLabel">Editar anuncio</h5>
+                    <h5 className="modal-title" id="staticBackdropEditLabel">Editar personal</h5>
                     <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div className="modal-body">
